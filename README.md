@@ -3,6 +3,11 @@
 ## 介绍
 查表法实现crc16算法.参数模型是CRC-16/MODBUS 多项式是8005。
 
+## 导入到项目中
+```go
+import "gitee.com/jdhxyy/crc16"
+```
+
 ## API
 ```go
 // CheckSum 校验和.参数模型是CRC-16/MODBUS 多项式是8005
